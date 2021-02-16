@@ -15,6 +15,15 @@ Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-20.04"
 
   config.vm.provision :shell, path: "task1/bootstrap.sh"
+  config.vm.provision :shell, path: "task2/Dockerfile"
+
+  # Install Docker
+  config.vm.provision :docker
+
+  # Install Docker Compose
+  # First, install required plugin https://github.com/leighmcculloch/vagrant-docker-compose:
+  # vagrant plugin install vagrant-docker-compose
+  config.vm.provision :docker_compose
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
