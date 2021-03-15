@@ -1,5 +1,13 @@
 repos:
   - repo: https://github.com/Cretezy/flutter-format-pre-commit.git
-    rev: "master"
+    rev: "4a1df675bb74dea371c17934933e257e46f8dd98"
     hooks:
       - id: flutter-format
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.1.0
+    hooks:
+      - id: add-trailing-comma
+  - repo: https://github.com/nikitattt/mit-2021-pre-commit-hook.git
+    rev: "2d0de4dc0853a94e5f1747f0f27e3f31598ff3ca"
+    hooks:
+      - id: hate-2020-formatter
