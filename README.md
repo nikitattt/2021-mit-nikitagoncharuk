@@ -1,6 +1,6 @@
-# Task 3 - Git Hooks (pre-commit)
+# Repository for the project work on MIT 2021
 
-## Details for task 3
+## Detail for Task 3 - Git Hooks (pre-commit)
 
 ### Junior
 
