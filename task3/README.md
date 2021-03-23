@@ -1,4 +1,4 @@
-# Junior
+# Task 3 - Git Hooks. Junior
 
 ## Task 2
 
