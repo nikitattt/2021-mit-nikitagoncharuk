@@ -8,10 +8,7 @@ RUN apt update
 RUN echo y | apt install software-properties-common
 RUN echo y | add-apt-repository ppa:deadsnakes/ppa
 RUN apt update
-# RUN echo y | apt-get install python3.9 python3-pip unzip python3-virtualenv mysql-server 
 RUN echo y | apt install python3-dev python3-pip python3-virtualenv mysql-server libmysqlclient-dev unzip
-# RUN apt-get install unzip
-# RUN mysql --version
 
 # Download and unpack source code
 # In a real project you'll use `ADD ./src`
